@@ -1,0 +1,999 @@
+\documentclass[twoside,onecolumn]{exam}
+\usepackage[brazil,portuguese]{babel}
+\usepackage[ansinew]{inputenc}
+\usepackage{amsmath,amssymb,exscale}
+\usepackage{color,colortbl,multirow}
+\usepackage{graphics,graphicx}
+\usepackage{moreverb}
+\usepackage{enumerate}
+\usepackage{pstricks}
+\pagestyle{headings}
+\parindent=0mm
+\parskip=2.5mm
+\renewcommand{\rmdefault}{phv}\renewcommand{\sfdefault}{phv}
+\usepackage{geometry}
+\geometry{tmargin=30mm,bmargin=20mm,lmargin=30mm,rmargin=20mm}
+\usepackage{calc}
+\setlength{\topskip}{0pt}
+% Controlar linhas órfãs e viúvas 
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\renewcommand{\thepartno}{\Roman{partno}}
+\renewcommand{\thechoice}{\alph{choice}}
+\renewcommand{\questionlabel}{\thequestion.}
+\renewcommand{\partlabel}{\thepartno - }
+\renewcommand{\subpartlabel}{\thesubpart.}
+\renewcommand{\choicelabel}{(\thechoice)}
+\renewcommand{\questionshook}{\setlength{\itemsep}{0.1in}}
+\renewcommand{\partshook}{\setlength{\topsep}{0.1in}}
+\renewcommand{\solutiontitle}{\noindent\textbf{Solução:}\par\noindent}
+\pagestyle{headandfoot}
+\firstpageheadrule
+\runningheadrule
+\firstpageheader{}{Prova}{\today}
+\runningheader{Prova}
+{Página \thepage\ de \numpages}
+{\today}
+\firstpagefooter{}{Prova}{\today}
+\runningfooter{}{Prova}{\today}
+\firstpagefootrule
+\runningfootrule
+\begin{document}
+Brasília, \today \\
+Prof. Welder Maurício de Souza\\
+Aluno(a):\hrulefill
+\begin{questions}
+\fullwidth{\large \textbf{Gestão de Projetos}}
+\question Em face de um evento de risco com baixa probabilidade de ocorrência e impacto muito baixo sobre o projeto, qual é a estratégia pro
+vavelmente não seria adotada.
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice Aceitar;
+\choice Prevenir;
+\choice Mitigar;
+\choice Conduzir;
+\choice Nenhuma das anteriores;
+\end{choices}
+
+\question Para estimar custos de atividades de um projeto, é possível utilizar diversas ferramentas e técnicas. Entre elas há a estimativa de três pontos, em que se consideram três estimativas, por meio das quais se define uma faixa aproximada do custo da atividade.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question No ciclo de vida BPM, a fase de desenho e modelagem de processos de negócio deve assegurar a implantação de métricas adequadas para a medição de desempenho e conformidade.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{Ferramentas de Desenvolvimento}}
+\question Marque a alternativa que representa a declaração correta de um objeto:
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice \$controler = new \$controler;
+\choice \$controler = new controlador\$;
+\choice \$controler = new controlador;
+\choice \$controler$->$new;
+\choice Nenhuma das anteriores;
+\end{choices}
+
+\question Em relação ao formato do protocolo HTTP, pode-se afirmar que:
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice Existe um formato para pedido e outro para resposta. No formato de pedido, o primeiro comando apresentado é versão do 
+protocolo, seguido de um cabeçalho;
+\choice Existe somente um formato, o de envio-resposta. Em uma mensagem que chega ao servidor, pode-se utilizar os comandos GET 
+e POST, que respectivamente, enviam suas mensagens no cabeçalho e no corpo da mensagem;
+\choice O HTTP 1.0 e o HTTP 1.1 possuem algumas diferenças: um possui comunicação não persistente e o outro persistente; além
+ disso, o HTTP 1.1 possui mais comandos, i.e: DELETE;
+\choice O HTTP é o protocolo utilizado em browsers e servidores web para o envio de hipertexto. Basicamente, usa dois comandos:
+GET e POST. Este último permite que um comando seja enviado no cabeçalho da mensagem;
+\choice O HTTP 1.0 permite que a comunicação fique aberta entre o cliente e o servidor, de modo que as respostas sejam enviadas
+na mesma mensagem de requisição;
+\end{choices}
+
+\question Em relação a representação em UML (marque a alternativa correta):
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice Uma classe é representada por um retângulo, que possui dois nomes separados por dois pontos e sublinhados;
+\choice Um objeto é representado por um retângulo com um único nome no centro;
+\choice A herança é representada por uma reta que liga duas classes;
+\choice Uma agregação de classes é representada por um losango sem preenchimento (claro);
+\choice Nenhuma das anteriores;
+\end{choices}
+
+\fullwidth{\large \textbf{Engenharia de Software I}}
+\question Um modelo iterativo e incremental significa: desenvolver um sistema onde cada fase ou etapa é sequencial, sendo que essas etapas
+são repetidas várias vezes. E, incremental, significa que o sistema somente é liberado após a versão final;
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Em relação aos modelos tradicionais, pode-se afirmar que: o custo de erro nas fases finais do projeto aumentam exponencialmente;
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question No processo unificado, ao pegar como exemplo um iteração da fase de implementação, pode-se concluir que o elemento de etapa
+mais utilizado é a implementação.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{Engenharia de Software-II}}
+\question O Processo Unificado foi estabelecido em termos de fases que são: Concepção, Elaboração, Construção, Transição e Produção. Uma variedade de produtos de trabalho pode ser produzida como conseqüência da aplicação da UML. Um produto de trabalho da fase de Concepção é o (a)
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice protótipo arquitetural executável.
+\choice requisito suplementar incluindo os não-funcionais.
+\choice modelo inicial de caso de uso.
+\choice lista de riscos revisada.
+\choice plano e procedimento de teste.
+\end{choices}
+
+\fullwidth{\large \textbf{Engenharia de Software-III}}
+\question Em um processo PSP, uma fábrica de software possui o histórico de três sistemas quanto a quantidade de defeitos: 180 Defeitos/KLOC; 220 Defeitos/KLOC; e 350 Defeitos/KLOC. Cada um destes sistemas possuem, respectivamente: 2500PF; 2700PF; 3000PF de esforço. Sabendo que a mesma fábrica de software irá produzir um software que provavelmente tenha 2300 KLOC, determine a quantidade provável de erros a serem encontrados no desenvolvimento do novo sistema.
+\\\fillwithlines{1in}
+
+\question Analise a citação a seguir. 
+
+"Um conjunto de atributos que têm impacto na capacidade do software de manter o seu nível de desempenho dentro de condições estabelecidas por um dado período de tempo." 
+
+A Norma que integra os conceitos de ambiente, estratégias e planejamento de testes, é conhecida por:
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice ISO-9126
+\choice IEEE-830
+\choice MPS.BR
+\choice ISO-27000
+\choice ISO-12207
+\end{choices}
+
+\question A Norma 12207 descreve a arquitetura dos processos de ciclo de vida de software, mas não especifica os detalhes de como implementar ou executar as atividades e tarefas incluídas nos processos.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question São categorias de processos da ISO-15504: processos primários; processos de apoio e processos organizacionais.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{Banco de dados I}}
+\question A linguagem de manipulação de dados DML (data manipulation language) permite a recuperação, inclusão, exclusão ou modificações de informações do banco de dados, que são operações modificadoras da instância do banco de dados.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question No caso de uma chave primária possuir três atributos, e exatamente um deles for nulo, essa chave primária será aceita e estará de acordo com as restrições de uma RIE (Restrições de Integridade de Entidade).
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Para realizar operações sobre os dados armazenados, o SGBD disponibiliza uma linguagem DML que, se for do tipo procedural, será embutida em uma linguagem de programação e normalmente recuperará um registro de dados por vez.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question DMLs de alto nível, também conhecidas como DML não procedurais, conseguem capturar um conjunto por vez de registros devido aos comandos loop, repeat e outros comandos imperativos utilizados para executar uma consulta.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question As instâncias de registros de um banco de dados é intitulada esquema de banco de dados.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{Banco de dados II}}
+\question Seja o seguinte esquema relacional:
+Projeto (Codigo, Descricao,(Matricula,Nome,Salário));
+
+Marque a alternativa que representa a 1FN deste esquema:
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice Projeto(Codigo,Descricao); Participante(Matricula, Nome, Salário);
+\choice Projeto(Codigo,Descricao); Participante(Matricula,CodProj, Nome, Salário);
+\choice Projeto(Codigo,Descricao); Participante(Matricula,CodProj);
+\choice Projeto\_Participante(Codigo,CodProj,Nome,Salário);
+\choice Nenhuma das anteriores;
+\end{choices}
+
+\question Na ocorrência de falha geral do meio de armazenamento, sabendo que existe back-up de arquivo de log deste banco de dados
+em outro meio de persistência, procede-se a(o):
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice Partial Undo;
+\choice Global Undo;
+\choice Global Redo;
+\choice Transaction Undo;
+\choice Nenhuma das anteriores;
+\end{choices}
+
+\question Existem vários modelos de distribuição de bancos de dados NoSQL. Os modelos mais conhecidos são a fragmentação em que um banco ou um conjunto de informações são copiadas entre vários nodos da rede. O outro modelo é a replicação, em que um banco é dividido em várias partes, uma para cada nodo.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question A replicação ponto-a-ponto permite gravações em qualquer nodo; os nodos são coordenados para sincronizar suas cópias de dados.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{ITIL V3}}
+\question Qual é o sinônimo de Uptime.
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice Tempo médio entre Falhas (TMEF)
+\choice Tempo médio para reparo (TMPR)
+\choice Tempo médio entre incidentes de sistema (TMEIS)
+\choice Relacionamento entre TMEF e TMEIS
+\choice Nenhuma das anteriores
+\end{choices}
+
+\question Qual processo ou função do ITIL tem o confronto do incidente com soluções conhecidas e documentadas
+como uma de suas atividades?
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice Gerenciamento de Mudanças
+\choice Gerenciamento de Incidentes
+\choice Gerenciamento de Problemas
+\choice Service Desk
+\choice N.A
+\end{choices}
+
+\question Entre os elementos: capacidade e disponibilidade, o mais sensível deles para o cliente é a disponibilidade.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question O gerenciamento de catálogo de serviço ocorre na etapa do ITIL v3 denominada.
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice Transição de serviços.
+\choice Estratégia de serviços.
+\choice Projeto de serviços.
+\choice Operação de serviços.
+\choice Melhoria contínua de serviços.
+\end{choices}
+
+\fullwidth{\large \textbf{COBIT}}
+\question A entrega de valor é um foco da ITIL determinado para melhorar a relação dos serviços oferecidos aos clientes. Na entrega de valor
+são boas práticas: gestão de nível de serviço; gestão de mudanças; e, suporte aos serviços. Um framework indicado para tal tarefa
+é o COBIT, que trabalha diretamente gerenciando os serviços de TI.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Monitorar e avaliar o desempenho de TI e monitorar e avaliar os controles internos são exemplos do domínio monitorar e avaliar do
+COBIT.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question O COBIT, ferramenta de gestão orientada a negócios, apresenta indicadores de objetivo que definem a forma do progresso das
+ações necessárias para se atingirem os objetivos estratégicos da organização, que podem ser expressos sob a forma de disponi-
+bilidade de informação para dar apoio ao negócio; riscos da falta de informação e confiabilidade das informações; eficiência de 
+custos; entre outras.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Os conceitos de inteligência empresarial ou organizacional estão intimamente relacionados com o PETI que considera
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice o planejamento de sistemas de informação, apenas.
+\choice o planejamento de sistemas de informação e conhecimentos, apenas.
+\choice a informática e os conhecimentos, apenas.
+\choice a informática, apenas.
+\choice o planejamento de sistemas de informação, conhecimentos e informática.
+\end{choices}
+
+\fullwidth{\large \textbf{INSTRUÇÃO NORMATIVA Nº4/2008 (MPOG)}}
+\question Segundo a instrução normativa Nº4/2008 do MPOG, requisito significa: declaração formal do Gestor de Contrato de que os serviços 
+prestados atendem as necessidades estabelecidas em contrato.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question A análise de Riscos deverá ser elaborada pelo Gestor do Contrato, com o apoio da Área de Tecnologia da Informação e do Requisitante
+do Serviço, e deve abranger: identificação dos principais riscos em relação a contratação e ao atendimento do serviço prestado; 
+identificação dos danos potenciais de cada risco; definição das ações a serem tomadas; definição de ações de contingênciamento; e a
+definição dos responsáveis pelas ações de prevenção dos riscos e procedimentos de contingência;
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question De acordo com a IN4, na fase de gerenciamento de contrato, os órgãos do governo federal devem seguir um conjunto de atividades
+mínimas, que inclui a análise de viabilidade da contratação, o plano de sustentação, a estratégia de contratação e a análise de
+riscos.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Os softwares resultantes de serviços de desenvolvimento deverão ser catalogados pelo Gestor do Contrato e disponibilizados no
+Portal do Software Público Brasileiro de acordo com regulamento do órgão central do SISP.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{Análise de Ponto de Função (APF)}}
+\question A determinação do tipo de contagem é realizada após a identificação do escopo da contagem e fronteira da aplicação que será contada.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question A APF trata a criação de um ponto de função por dois processos: medição e aproximação. O primeiro permite fazer suposições sobre funções desconhecidas ou suas complexidades, para fazer uma análise de pontos de função. O segundo permite a identificação de todas as funções e suas complexidades, para efetuar uma análise de pontos de função.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question O principal objetivo de um arquivo de interface externa (AIE) é armazenar dados referenciados pou um ou mais processos elementares da aplicação que está sendo contada. Além disso, um AIE contado para uma aplicação deve ser um arquivo lógico interno para outra aplicação.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question A partir de diagramas UML de classe e de sequência, é possível calcular o número de pontos de função de um sistema ou módulo.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{Qualidade de Software}}
+\question As normas, tais como as normas ISO ou outras normas quaisquer surgem de facto ou de jure. Isso quer dizer que no primeiro caso, a
+lei surje por imposição de lei ou norma, e no segundo caso, pela prática de uma determinada atividade.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Uma equipe de inspeção de inspeção possui funções bem definidas, tais como: autor, que é programador ou projetista; o inspetor, que
+faz a inspeção; e, o leitor, que lê o código durante a inspeção;
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question O tratamento dos diálogos, tais como: diálogos por linguagem de comandos; diálogos de manipulação direta; e, diálogos por 
+preenchimento de formulários são preocupações da norma ISO/IEC 9241.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question A adequação ao uso significa adequar-se ao tipo de tarefas ou atividades que se pretende realizar com o produto de software, aos
+usuários que tipicamente utilizam o produto e ao ambiente de utilização do produto. A avaliação somativa pode ser utilizada como 
+critério de aceitação de um produto, ou seja, como parte dos requisitos não funcionais acordados com os usuários.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{CMM-SW/CMMI/MPS.BR}}
+\question No nível 1 do CMMI as empresas conseguem entregar produtos e serviços que funcionam; entretanto, elas frequentemente estouram
+prazos e custos previstos para o projeto. As organizações neste nível são caracterizadas pela tendência de: não cumprimento da
+agenda estabelecida; abandono dos processos em tempo de crise; e de não serem capazes de repetir sucessos passados.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question No nível G do MPS.BR, as áreas de processos a serem abordadas são: gerência de requisitos e gerência de projetos.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question O processo: solução técnica está localizado no nível:
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice nível F do MPS.BR;
+\choice nível D do MPS.BR;
+\choice nível C do MPS.BR;
+\choice nível A do MPS.BR;
+\choice nível E do MPS.BR;
+\end{choices}
+
+\question Analisando as afirmações seguintes, relativas ao modelo de referência CMMI,
+
+
+I. É um modelo que classifica a maturidade do processo de desenvolvimento adotado na empresa. 
+
+II. Apresenta quatro níveis de maturidade do processo, sendo o último nível um indicativo de que há evidências quantitativas para acompanhar e monitorar o projeto. 
+
+III. O único objetivo do CMMI é melhorar a qualidade do software produzido, sem que necessariamente isso reflita no processo de desenvolvimento. 
+
+IV. O último nível do CMMI é conhecido como nível de melhoria contínua, ou nível em otimização. 
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice apenas I e IV são verdadeiras.
+\choice apenas II e III são verdadeiras.
+\choice I, III e IV são verdadeiras.
+\choice apenas III e IV são verdadeiras.
+\choice apenas I é verdadeira.
+\end{choices}
+
+\question As áreas de processo na representação contínua são Gerência de processos; gerênia de projeto; engenharia; e suporte.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question No CMMI, representação por estágios, os níveis de maturidade são alcançandos trabalhando várias áreas de processo por nível, em que cada área de processo exercita práticas genéricas e específicas. Pelas práticas genéricas são exercitadas as características comuns de:
+compromisso com execução; habilidade para execução; direção e verificação da implementação.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{SOA}}
+\question Entre as partes fornecidas pelo WSDL, podem ser apontadas: uma parte introdutória; que define os namespaces XML usados.
+Existe uma descrição obrigatória de tipos usados  nas mensagens trocadas. Uma descrição da interface  de serviços, ou seja,
+das operações fornecidas pelo serviço. Por fim, uma especificação de ponto final, que é uma localização física de um serviço,
+expresso em URI (Universal Resource Identifier).
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question No processo de análise orientada a serviços, é comum identificar o reúso de lógica de solução legada a ser encapsulada por
+serviços identificados durante a análise. Essa atividade está ligada à aplicação dos princípios de autonomia de serviços.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question O estilo de arquitetura de software denominado REST (representational state transfer) demanda mais recursos computacionais que
+o modelo de desenvolvimento de sistemas embasado em SOAP (single object access protocol), por isso não é recomendável a
+adoção do padrão REST de arquitetura de software.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{PHP}}
+\question Marque a alternativa que permite verificar se um arquivo já alcançou o seu final:
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice unlink
+\choice feof
+\choice fclose
+\choice fwrite
+\choice fgets
+\end{choices}
+
+\fullwidth{\large \textbf{ISO-27000}}
+\question A política de segurança é um conjunto de normas e diretrizes destinadas a proteção dos ativos da Organização;
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Uma informação integra é aquela que assegura que o seu conteúdo não poderá ser alterado por acidente ou intenção de qualquer 
+emissor ou receptor desta informação.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Em relação com a gestão de recursos, segundo a ISO/IEC 27001, devem ser reservados recursos para: manter todos os controles do
+documento de aplicabilidade; estabelecer, implementar, operar, monitorar e analisar criticamente um SGSI; para identificar e 
+tratar os requisitos legais e regulamentares e obrigações contratuais de segurança da informação. Por fim, para
+melhorar a eficácia do SGSI.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Devido a questões econômicas, a norma em questão não cobre empresas de pequeno porte.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{Padrões de Projeto}}
+\question Marque a alternativa que representa corretamente o encapsulamento de operações, separando a abstração (classe e métodos) de
+sua implementação:
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice Adapter;
+\choice Builder;
+\choice Singleton;
+\choice Composite;
+\choice Bridge;
+\end{choices}
+
+\fullwidth{\large \textbf{Gestão de Segurança da Informação}}
+\question Sobre análise/avaliação e tratamento de riscos segundo a norma ABNT ISO/IEC 27002: 2005, é correto afirmar que:
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice O escopo de uma análise/avaliação de riscos deve ser sempre em toda a organização.
+\choice Os riscos nunca devem ser aceitos, mesmo que sejam baixos ou se o custo do tratamento não for viável para a organização.
+\choice Riscos não podem ser evitados, pois não há como impedir ações que podem causar a ocorrência de riscos.
+\choice Para riscos onde a decisão de tratamento do risco seja a de aplicar controles apropriados, esses controles devem ser selecionados e implementados para atender aos requisitos identificados pela análise/avaliação de riscos.
+\choice Os riscos não podem ser transferidos para outras partes, como seguradoras ou fornecedores, por exemplo.
+\end{choices}
+
+\question Marque a alternativa que NÃO REPRESENTA uma entrada para a análise crítica.
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice Resultados de auditorias.
+\choice Atualização da análise/avaliação de riscos
+\choice Requisitos de segurança modificados.
+\choice Vulnerabilidades ou ameaças não contempladas.
+\choice Resultado da eficácia das medições.
+\end{choices}
+
+\question Marque a alternativa que representa corretamente as características da técnica de Decriptografia Genérica (DG):
+\begin{enumerate}[I -]
+\item Varre as assinaturas dos vírus no ambiente de execução.
+
+\item Utiliza-se de máquina virtual para não proliferar as ações prováveis de um vírus.
+
+\item Avalia o comportamento de um vírus.
+
+\item Descompacta um vírus polimórfico, caso seja necessário.
+\end{enumerate}
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice I e III, somente
+\choice III e IV, somente
+\choice II e IV, somente
+\choice I e II, somente
+\choice I, II e III, somente
+\end{choices}
+
+\fullwidth{\large \textbf{Orientação objetos (Java/C++)}}
+\question O princípio da orientação a objetos que indica a capacidade de abstrair várias implementações diferentes de uma única interface
+é denominado:
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice encapsulamento;
+\choice agregação;
+\choice herança;
+\choice identificação;
+\choice polimorfismo;
+\end{choices}
+
+\fullwidth{\large \textbf{e-PING}}
+\question O e-VOG (Vocabulário e ontologias do governo federal) tem o objetivo de promover a interoperabilidade semântica dentro da e-PING, englobando para isso: vocabulário controlado do governo eletrônico (VCGE) e do Padrão de Metadados do Governo Eletrônico (e-PMG).
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Como dimensão técnicas, o e-PING privilegia a adoção de tecnologias baseadas em browser e que possam ser escaláveis.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question A e-PING é concebida como uma estrutura básica para a estratégia de governo eletrônico, aplicada inicialmente ao governo federal - poder executivo, não restringindo a participação, por adesão voluntária, de outros poderes e esferas de governo.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question A e-PING utiliza políticas, diretrizes, para a adoção e gestão dos padrões adotados, sendo elas: adoção preferencial de padrões abertos; softwares públicos ou livres; transparência; segurança, suporte de mercado; e dimensões (técnica, semântica e organizacional).
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question A norma e-ping de interoperabilidade é obrigatória para os poderes legislativo e executivo do governo federal.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{Business Process Modeling-BPM}}
+\question O BPMN divide os processos em três tipos: processos internos, abstratos e de colaboração. Os processos internos são aqueles que não é 
+possível saber sobre suas atividades e são acessíveis somente aos decisores de uma organização.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question A atividade verificação é qualificada com ad-hoc devido as barras que a diferenciam da atividade validação. 
+\begin{figure}[h]
+\begin{center}
+ \includegraphics[scale=0.70]{./Figuras/ProcessoComEvento.eps}
+\end{center}
+\end{figure}
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question O BPEL é indicada mais para os analistas de sistemas enquanto que o BPMN é mais indicada para os engenheiros de software.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question O objeto de dado é um mecanismo para mostrar como os dados são requeridos ou produzidos por atividades. São conectados às
+atividades com as associações.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Marque a alternativa que contém todos os artefatos, segundo o BPMN:
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice Eventos, Fluxo de mensagem, Anotação
+\choice Eventos, Atividades e Decisões
+\choice Fluxo de sequência, Fluxo de mensagem e associação
+\choice Piscina e Raia
+\choice Objetos de Dados, Grupo, Anotação
+\end{choices}
+
+\fullwidth{\large \textbf{Inteligência Artificial}}
+\question Modificadores fuzzy são adjetivos aplicados as variáveis fuzzy e que permitem alterar os valores originais das variáveis fuzzy.
+\begin{quotation}
+Exemplo: considerando que muito é igual a ${a}^2$ e a variável a é 2, então o valor é modificado para 4.
+\end{quotation}
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question No termo referente ao trecho de uma premissa:
+\begin{quotation}
+"O sol está muito quente"
+\end{quotation}
+
+Pode-se afirmar que:
+
+Quente é uma variável fuzzy; e Sol é uma variável linguistica; 
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{Fundamento de Sistemas de Informação}}
+\question No processo de construção de um SIG, do tipo DATA-WAREHOUSE, a primeira etapa do processo é a definição da granularidade
+dos dados na tabela fato; seguida da estruturação da tabela fato;
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{Sistemas e Tecnologias para a Internet}}
+\question Os UDDI Business Registries (UBR’s) proporcionam um diretório de sites operadores UDDI, fisicamente distribuído, mas logicamente 
+centralizado.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{Linguagem de Programação IV}}
+\question O comando do tipo 
+\begin{verbatim}
+<% ! int a=0 %> 
+\end{verbatim}
+
+é conhecido como:
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice Declaração
+\choice Scriptlet
+\choice Annotation
+\choice Expressão
+\choice Nenhuma das anteriores
+\end{choices}
+
+\question Para buscar todos os parâmetros disponibilizados por um objeto HttpSession usa-se o método getAttributeNames() do objeto HttpSession.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Com o uso de um servlet é possível saber o nome de um servidor e da porta usada por este servidor. Tudo isso por meio da interface ServletResponse.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Uma página HTML deve ser posicionada no diretório (marque a alternativa correta):
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice Diretório WEB-INF ou em qualquer uma de suas subpastas.
+\choice Diretório META-INF ou em qualquer uma de suas subpastas.
+\choice No diretório WebContent ou em qualquer uma de suas subpastas.
+\choice No diretório WebContent, não incluindo os diretórios WEB-INF e META-INF.
+\choice No diretório WebContent, incluindo o diretório META-INF. 
+\end{choices}
+
+\fullwidth{\large \textbf{Sistemas Operacionais e Distribuído}}
+\question A Serialização de objetos habilita programas a passar objetos Java como parâmetros e receber objetos como valores de retorno no RMI.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question A Portabilidade habilita a mudança de um sistema ou componente (incluindo ambos, software e hardware) de um ambiente para outro sem alterar o sistema ou componente que está sendo transferido.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Em sistemas distribuídos, um dos tipos de transparência é a transparência de acesso. Esta oculta os detalhes de protocolos de rede que habilitam a comunicação entre computadores distribuídos. Também fornece um meio universal de acesso a dados armazenados em diferentes formatos de dados em todo o sistema.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question No algoritmo de escalonamento shortest-job-first (SJF), a prioridade de cada processo é inversamente proporcional ao
+próximo tempo de processamento (CPU burst) necessário ao processo. Por sua vez, no algoritmo round-robin (RR), a lista de
+processos prontos é tratada como uma lista circular e o processador é alocado, a cada processo, em fatias de tempo. Quando
+comparados os tempos médios de espera em sistemas que empregam os algoritmos, o tempo médio de espera para execução
+é tipicamente mais longo no SJF que no RR.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{Sistemas Multimídia}}
+\question Em relação aos termos: saturação, luminância e matiz; pode-se dizer que o último se refere a:
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice Quantidade de luz (brilho) existente em uma cor;
+\choice Quantidade da componente (vermelho) existente em uma cor;
+\choice Quantidade da componente (verde) existente em uma cor;
+\choice Grau de pureza relacionado a uma cor;
+\choice A dominância de uma componente na composição de uma cor;
+\end{choices}
+
+\fullwidth{\large \textbf{Business Process Manegement}}
+\question Na avaliação de desempenho de processos, pode ser definido um indicador que represente vários aspectos da realidade, sendo inviável a obtenção desses indicadores pela simples análise do valor de uma variável.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Na gestão por processos, o objetivo principal é mapear todos os processos em todos os níveis da organização.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question No gerenciamento de processo de negócio são utilizadas técnicas e ferramentas para analisar, modelar, publicar, otimizar e controlar processos envolvendo recursos humanos, aplicações, documentos e outras fontes de informação.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Os processos de negócio devem ser definidos a partir da departamentalização da organização e das atividades identificadas em cada departamento.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{Sistemas de Apoio a Decisão}}
+\question Um processo possui características apontadas corretamente em uma das alternativas abaixo:
+\renewcommand{\choicelabel}{(\thechoice)}
+\begin{choices}
+\choice Todas as atividades de áreas funcionais participam de todos os processos.
+\choice Algumas atividades de áreas funcionais participam de alguns processos. Um processo tem vários donos.
+\choice Alguns processos são formados por várias atividades de uma mesma área funcional. Todo processo deve ter um único dono.
+\choice Várias atividades de várias áreas funcionais participam de processos. Todo processo deve ter um dono e um cliente.
+\choice Processo é formado por atividades de uma mesma área funcional. Tem vários clientes e o gerente como dono.
+\end{choices}
+
+\question Data warehouses possuem estratégias distribuídas de implementação. Os Data Warehouses distribuídos homogêneos possuem tipos diferentes de ferramentas de banco de dados que são controladas centralmente por um conjunto de sistemas que pertencem a uma 
+mesma arquitetura.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Organizar os atributos em uma hierarquia, em que o nível mais elevado apresenta as agregações mais esparsas e os níveis inferiores apresentam maiores detalhes, constitui uma técnica para modelagem de dados multidimensional.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{Redes}}
+\question Em relação aos endereçamentos privados, são eles: 10.0.0.0/8 a 10.255.255.255/8 para classe A; 172.16.0.0/12 a 
+172.31.255.255/12 para classe B; 192.160.0.0/16 a 192.168.255.255/16;
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Uma rede local usa um modo de transmissão conhecido como modo síncrono, que garante alta velocidade no processo de comunicação;
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question A multiplexação de uma conexão com TCP/IP é possível porque os protocolos de transporte são capazes de gerenciar várias
+conexões simultâneas em portas diferentes.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question O esquema OAEP apresenta segurança demonstrável no caso em que utiliza o RSA, devido às propriedades deste último.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{UML}}
+\question Um diagrama de colaboração é construído a partir de uma colaboração (adorno básico da UML)
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{Usabilidade}}
+\question Segundo o e-pwg, é necessário realizar a comunicação de erros de formulário no topo, com contraste visual, indicando também ações 
+para correção de erro e associando corretamente o campo responsável com o erro principal.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Segundo o e-pwg, números de protocolos devem fornecidos pelo sistema por meio de cópia por email, para evitar que o usuário fique memorizando este tipo de informação.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Segundo o e-pwg, a função de um sítio, a informação, é soberana sobre o desenho. Qualquer tipo de conformação que beneficie o desenho em detrimento a informação, usabilidade e funcionalidade do sítio deve ser abandonada.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Um sítio deverá conter uma barra de acessibilidade no topo da página principal em detrimento das demais páginas.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{Programação para Web II}}
+\question Se duas classes: A e B possuem relacionamento entre si, onde A visualiza os elementos em B por meio de um qualificador, pode-se 
+afirmar que a implementação do qualificador será realizada por meio de um método que passa como parâmetro o atributo que 
+acessa um elemento na classe alvo, ou seja, na classe B (já que o classificador está definido em A);
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{Gestão de Sistemas de Informação}}
+\question Um banco de dados multimensional possui como característica a aplicação de normalização para evitar a redundância de dados;
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Em uma competição de skate observa-se que entre os competidores da alto nível, algumas variáveis são determinantes para 
+determinar o campeão. Entre elas, podem ser citadas: destreza, tipos de manobras, e quantidade de erros. Uma empresa de 
+bebida energética, criou uma relação por meio de regressão linear múltipla destas três variáveis. Com essa formula, ela irá
+determinar que tipo de atleta a mesma irá patrocinar. Em relação a este trecho, pode-se afirmar que o mesmo representa
+um tipo de decisão semi-estruturada;
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\question Em um processo de tomada de decisão, pode-se afirmar que: na fase de escolha são aplicáveis ferramentas, geração de
+cenários para determinar uma alternativa em particular.
+\renewcommand{\choicelabel}{(\hspace{0.25cm})}
+\begin{oneparchoices}
+\\ \choice Certo  \choice Errado 
+\end{oneparchoices}
+\renewcommand{\choicelabel}{(\thechoice)}
+
+\fullwidth{\large \textbf{RSS}}
+\fullwidth{\large \textbf{REST}}
+\fullwidth{\large \textbf{Organização de Arquivos}}
+\fullwidth{\large \textbf{Sistemas Operacionais}}
+\end{questions}
+\end{document}
