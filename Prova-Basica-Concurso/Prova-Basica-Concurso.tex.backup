@@ -7,7 +7,6 @@
 \usepackage{moreverb}
 \usepackage{enumerate}
 \usepackage{pstricks}
-\usepackage{parskip}
 \pagestyle{headings}
 \parindent=0mm
 \parskip=2.5mm
@@ -29,6 +28,7 @@
 \renewcommand{\questionshook}{\setlength{\itemsep}{0.1in}}
 \renewcommand{\partshook}{\setlength{\topsep}{0.1in}}
 \renewcommand{\solutiontitle}{\noindent\textbf{Solução:}\par\noindent}
+\renewcommand{\identation}{\setlength{\parindent}{1cm}}
 \pagestyle{headandfoot}
 \firstpageheadrule
 \runningheadrule
@@ -42,13 +42,14 @@
 \runningfootrule
 \begin{document}
 Brasília, \today \\
+Matéria: .\\
 Prof. Welder Maurício de Souza\\
 Aluno(a):\hrulefill
 \begin{questions}
 \fullwidth{\large \textbf{Português}}
 \question Interpretação de texto:
 
-\parindent=25pt A ideia de solidariedade acompanha, desde os
+\identation A ideia de solidariedade acompanha, desde os
 primórdios, a evolução da humanidade. Aristóteles, por
 exemplo, em clássica passagem, afirma que o homem não é um
 ser que possa viver isolado; é, ao contrário, ordenado
@@ -68,7 +69,7 @@ comunitário. Percebe-se, aqui, igualmente, a sua inegável
 dimensão ética, em virtude do necessário reconhecimento
 mútuo de todos como pessoas, iguais em direitos e obrigações,
 o que dá suporte a exigências recíprocas de ajuda ou sustento.
-\par A solidariedade, desse modo, exorta atitudes de apoio
+\indent A solidariedade, desse modo, exorta atitudes de apoio
 e cuidados de uns com os outros. Pede diálogo e tolerância.
 Pressupõe um reconhecimento ético e, portanto,
 corresponsabilidade. Entretanto, para que não fique estagnada
@@ -78,24 +79,7 @@ passo maior em direção à justiça social: o compromisso
 constante com o bem comum e a promoção de causas ou
 objetivos comuns aos membros de toda a comunidade.
 
-\question De acordo com as ideias do texto Estado social e princípio da
-solidariedade:
-\renewcommand{\choicelabel}{(\hspace{0.25cm})}
-\begin{choices}
- \choice o compromisso constante com o bem comum e a promoção de
-causas ou objetivos comuns aos membros de toda a
-comunidade contribuem para que a solidariedade não fique
-restrita a ações locais e(ou) eventuais.
- \choice a solidariedade é uma característica inata dos seres humanos.
- \choice os animais e os deuses podem viver isoladamente, sem
-participação em uma comunidade, mas não os seres humanos.
- \choice o fato de as ações sociais de cada indivíduo incidirem sobre
-todos os demais membros da comunidade ratifica a dimensão
-ética da solidariedade, conquanto o reconhecimento mútuo de
-todos como pessoas iguais em direitos e obrigações
-configure-se como uma necessidade.
-\end{choices}
-\renewcommand{\choicelabel}{(\thechoice)}
+
 
 \question Na frase:
 
