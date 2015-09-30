@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.23)  30 SEP 2015 18:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.23)  30 SEP 2015 20:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -565,6 +565,16 @@ Underfull \hbox (badness 1127) in paragraph at lines 92--97
  []
 
 
+Underfull \hbox (badness 1910) in paragraph at lines 112--120
+[]\OT1/phv/m/n/10 Nesse con-texto, por meio da Lei n.o
+ []
+
+
+Underfull \hbox (badness 1701) in paragraph at lines 120--126
+\OT1/phv/m/n/10 ta-du-ais, o Po-der Exe-cu-tivo do es-tado e o
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
@@ -577,134 +587,148 @@ Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!]
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 166.
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 166.
-LaTeX Font Info:    Try loading font information for U+msa on input line 166.
+Underfull \hbox (badness 10000) in paragraph at lines 143--147
+[]\OT1/phv/m/n/10 Na pri-meira li-nha do texto, a
+ []
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 166.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+Underfull \hbox (badness 10000) in paragraph at lines 143--147
+\OT1/phv/m/n/10 organiza[][]ao da es-tru-tura tex-tual
+ []
+
+
+Underfull \hbox (badness 3646) in paragraph at lines 147--151
+\OT1/phv/m/n/10 subentende-se a presen[]a da ex-
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 2478) in paragraph at lines 203--210
-\OT1/phv/m/n/10 aquisi[][]ao, loca[][]ao de bens, bem como a
- []
-
-
-Underfull \hbox (badness 6510) in paragraph at lines 223--224
-[]\OT1/phv/m/n/10 uma das ca-rac-ter[]^^Psticas da ju-ris-
- []
-
-
-Underfull \hbox (badness 1509) in paragraph at lines 223--224
-\OT1/phv/m/n/10 seja, en-quanto a dou-trina tende a
- []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 229--235
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <7> on input line 220.
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <5> on input line 220.
+LaTeX Font Info:    Try loading font information for U+msa on input line 220.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 220.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 2478) in paragraph at lines 257--264
+\OT1/phv/m/n/10 aquisi[][]ao, loca[][]ao de bens, bem como a
+ []
+
+
+Underfull \vbox (badness 1721) has occurred while \output is active []
+
+
+Underfull \hbox (badness 6510) in paragraph at lines 277--278
+[]\OT1/phv/m/n/10 uma das ca-rac-ter[]^^Psticas da ju-ris-
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 277--278
+\OT1/phv/m/n/10 seja, en-quanto a dou-trina tende a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--289
 []\OT1/phv/m/n/10 Considerando a di-vis[]ao da administra[][]ao
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 229--235
+Underfull \hbox (badness 1281) in paragraph at lines 283--289
 \OT1/phv/m/n/10 p[]ublica fe-de-ral em di-reta e in-di-reta, []e cor-
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 244--250
+Underfull \hbox (badness 1057) in paragraph at lines 298--304
 []\OT1/phv/m/n/10 A constitui[][]ao ga-rante a ir-re-du-ti-bi-li-dade dos
  []
 
-
-Underfull \hbox (badness 5091) in paragraph at lines 276--282
+[3]
+Underfull \hbox (badness 5091) in paragraph at lines 330--336
 []\OT1/phv/m/n/10 O di-reito de peti[][]ao cons-ti-tui ins-tru-mento
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 276--282
+Underfull \hbox (badness 2617) in paragraph at lines 330--336
 \OT1/phv/m/n/10 de con-trole ad-mi-nis-tra-tivo da administra[][]ao
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 288--289
+Underfull \hbox (badness 2753) in paragraph at lines 342--343
 []\OT1/phv/m/n/10 N[]ao pa-ga-mento de presta[][]oes da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
 []\OT1/phv/m/n/10 Para a celebra[][]ao de con-tra-tos
  []
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 296--297
+Underfull \hbox (badness 2478) in paragraph at lines 350--351
 \OT1/phv/m/n/10 de presta[][]ao de servi[]os com as
  []
 
 
-Underfull \hbox (badness 3838) in paragraph at lines 298--301
+Underfull \hbox (badness 3838) in paragraph at lines 352--355
 []\OT1/phv/m/n/10 Na contrata[][]ao re-a-li-zada por em-
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 298--301
+Underfull \hbox (badness 1270) in paragraph at lines 352--355
 \OT1/phv/m/n/10 no-mia mista com suas sub-sidi[]arias
  []
 
-[3]
-Underfull \hbox (badness 5726) in paragraph at lines 330--336
+
+Underfull \hbox (badness 5726) in paragraph at lines 384--390
 []\OT1/phv/m/n/10 Concess[]ao de uso: []e con-trato en-tre a
  []
 
-
-Underfull \hbox (badness 3281) in paragraph at lines 376--385
+[4]
+Underfull \hbox (badness 3281) in paragraph at lines 430--439
 \OT1/phv/m/n/10 que Mi-nist[]erio dos trans-porte - Ex-pla-nada
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 386--392
+Underfull \hbox (badness 1253) in paragraph at lines 440--446
 \OT1/phv/m/n/10 ofi-cial pra-ti-ca-mente id[]enticas, of[]^^Pcio e aviso
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 386--392
+Underfull \hbox (badness 1281) in paragraph at lines 440--446
 \OT1/phv/m/n/10 para au-to-ri-da-des de mesma hi-e-rar-quia, en-
  []
 
-
-Underfull \vbox (badness 3049) has occurred while \output is active []
-
- [4]
-[5
+[5] [6
 
 ]
-This exam contains 44 questions with 0 parts, 0 subparts, and 0 subsubparts.
+This exam contains 46 questions with 0 parts, 0 subparts, and 0 subsubparts.
 (./Prova-Basica-Concurso.aux) ) 
 Here is how much of TeX's memory you used:
- 7553 strings out of 495004
- 109063 string characters out of 6180662
- 224594 words of memory out of 5000000
- 10631 multiletter control sequences out of 15000+600000
+ 7574 strings out of 495004
+ 109415 string characters out of 6180662
+ 224651 words of memory out of 5000000
+ 10652 multiletter control sequences out of 15000+600000
  10871 words of font info for 28 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 38i,10n,51p,492b,415s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,51p,492b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/b
 ase/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Prova-Basica-Concurso.pdf (5 pages, 39668 bytes).
+Output written on Prova-Basica-Concurso.pdf (6 pages, 43074 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 32 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
