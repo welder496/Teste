@@ -1,3 +1,15 @@
+*.aux
+./*.aux
+../*.aux
+
+*.log
+./*.log
+../*.log
+
+*.dvi
+./*.dvi
+../*.dvi
+
 *.pdf
 ./*.pdf
 ../*.pdf
