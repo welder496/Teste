@@ -1,4 +1,4 @@
-\documentclass[answers,twoside,twocolumn]{exam}
+\documentclass[twoside,onecolumn]{exam}
 \usepackage[brazil,portuguese]{babel}
 \usepackage[ansinew]{inputenc}
 \usepackage{amsmath,amssymb,exscale}
@@ -41,9 +41,7 @@
 \runningfootrule
 \begin{document}
 Brasília, \today \\
-Matéria: .\\
-Prof. Welder Maurício de Souza\\
-Aluno(a):\hrulefill
+Welder Maurício de Souza\\
 \begin{questions}
 \fullwidth{\large \textbf{Gestão de Projetos}}
 \question Em face de um evento de risco com baixa probabilidade de ocorrência e impacto muito baixo sobre o projeto, qual é a estratégia pro
@@ -56,34 +54,34 @@ vavelmente não seria adotada.
 \choice Conduzir;
 \choice Nenhuma das anteriores;
 \end{choices}
-\begin{solution}
-\end{solution}
 
 \question Para estimar custos de atividades de um projeto, é possível utilizar diversas ferramentas e técnicas. Entre elas há a estimativa de três pontos, em que se consideram três estimativas, por meio das quais se define uma faixa aproximada do custo da atividade.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 \begin{solution}
 É possível usar o PERT para calcular os custos.
 \end{solution}
 
 \question No ciclo de vida BPM, a fase de desenho e modelagem de processos de negócio deve assegurar a implantação de métricas adequadas para a medição de desempenho e conformidade.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \fullwidth{\large \textbf{Ferramentas de Desenvolvimento}}
 \question Marque a alternativa que representa a declaração correta de um objeto:
 \renewcommand{\choicelabel}{(\thechoice)}
 \begin{choices}
-\choice $controler = new $controler;
-\choice $controler = new controlador$;
-\correctchoice $controler = new controlador;
-\choice $controler->new;
+\choice \$controler = new \$controler;
+\choice \$controler = new controlador\$;
+\correctchoice \$controler = new controlador;
+\choice \$controler->new;
 \choice Nenhuma das anteriores;
 \end{choices}
-\begin{solution}
-\end{solution}
 
 \question Em relação ao formato do protocolo HTTP, pode-se afirmar que:
 \renewcommand{\choicelabel}{(\thechoice)}
@@ -99,8 +97,6 @@ GET e POST. Este último permite que um comando seja enviado no cabeçalho da mens
 \choice O HTTP 1.0 permite que a comunicação fique aberta entre o cliente e o servidor, de modo que as respostas sejam enviadas
 na mesma mensagem de requisição;
 \end{choices}
-\begin{solution}
-\end{solution}
 
 \question Em relação a representação em UML (marque a alternativa correta):
 \renewcommand{\choicelabel}{(\thechoice)}
@@ -111,29 +107,30 @@ na mesma mensagem de requisição;
 \correctchoice Uma agregação de classes é representada por um losango sem preenchimento (claro);
 \choice Nenhuma das anteriores;
 \end{choices}
-\begin{solution}
-\end{solution}
 
 \fullwidth{\large \textbf{Engenharia de Software I}}
 \question Um modelo iterativo e incremental significa: desenvolver um sistema onde cada fase ou etapa é sequencial, sendo que essas etapas
 são repetidas várias vezes. E, incremental, significa que o sistema somente é liberado após a versão final;
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 
 \question Em relação aos modelos tradicionais, pode-se afirmar que: o custo de erro nas fases finais do projeto aumentam exponencialmente;
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question No processo unificado, ao pegar como exemplo um iteração da fase de implementação, pode-se concluir que o elemento de etapa
 mais utilizado é a implementação.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \fullwidth{\large \textbf{Engenharia de Software-II}}
 \question O Processo Unificado foi estabelecido em termos de fases que são: Concepção, Elaboração, Construção, Transição e Produção. Uma variedade de produtos de trabalho pode ser produzida como conseqüência da aplicação da UML. Um produto de trabalho da fase de Concepção é o (a)
@@ -145,17 +142,8 @@ mais utilizado é a implementação.
 \choice lista de riscos revisada.
 \choice plano e procedimento de teste.
 \end{choices}
-\begin{solution}
-\end{solution}
 
 \fullwidth{\large \textbf{Engenharia de Software-III}}
-\question Em um processo PSP, uma fábrica de software possui o histórico de três sistemas quanto a quantidade de defeitos: 180 Defeitos/KLOC; 220 Defeitos/KLOC; e 350 Defeitos/KLOC. Cada um destes sistemas possuem, respectivamente: 2500PF; 2700PF; 3000PF de esforço. Sabendo que a mesma fábrica de software irá produzir um software que provavelmente tenha 2300 KLOC, determine a quantidade provável de erros a serem encontrados no desenvolvimento do novo sistema.
-\\
-\begin{solution}
-\end{solution}
-\begin{solution}
-\end{solution}
-
 \question Analise a citação a seguir. 
 
 "Um conjunto de atributos que têm impacto na capacidade do software de manter o seu nível de desempenho dentro de condições estabelecidas por um dado período de tempo." 
@@ -169,53 +157,56 @@ A Norma que integra os conceitos de ambiente, estratégias e planejamento de test
 \choice ISO-27000
 \choice ISO-12207
 \end{choices}
-\begin{solution}
-\end{solution}
 
 \question A Norma 12207 descreve a arquitetura dos processos de ciclo de vida de software, mas não especifica os detalhes de como implementar ou executar as atividades e tarefas incluídas nos processos.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question São categorias de processos da ISO-15504: processos primários; processos de apoio e processos organizacionais.
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 
 \fullwidth{\large \textbf{Banco de dados I}}
 \question A linguagem de manipulação de dados DML (data manipulation language) permite a recuperação, inclusão, exclusão ou modificações de informações do banco de dados, que são operações modificadoras da instância do banco de dados.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question No caso de uma chave primária possuir três atributos, e exatamente um deles for nulo, essa chave primária será aceita e estará de acordo com as restrições de uma RIE (Restrições de Integridade de Entidade).
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 
 \question Para realizar operações sobre os dados armazenados, o SGBD disponibiliza uma linguagem DML que, se for do tipo procedural, será embutida em uma linguagem de programação e normalmente recuperará um registro de dados por vez.
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-Quando o termo será é utilizado, ele indica que em todos os casos a DML procedural deverá ser embutida em uma linguagem hospedeira. Isso é verdade antigamente, hoje, não há a necessidade de imbutir, mas simplesmente chamar funções. Então, nem sempre a DML deverá ser embutida.
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 
 \question DMLs de alto nível, também conhecidas como DML não procedurais, conseguem capturar um conjunto por vez de registros devido aos comandos loop, repeat e outros comandos imperativos utilizados para executar uma consulta.
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 
 \question As instâncias de registros de um banco de dados é intitulada esquema de banco de dados.
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-Não. O esquema é somente a descrição dos registros.
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 
 \fullwidth{\large \textbf{Banco de dados II}}
 \question Seja o seguinte esquema relacional:
@@ -227,11 +218,9 @@ Marque a alternativa que representa a 1FN deste esquema:
 \choice Projeto(Codigo,Descricao); Participante(Matricula, Nome, Salário);
 \correctchoice Projeto(Codigo,Descricao); Participante(Matricula,CodProj, Nome, Salário);
 \choice Projeto(Codigo,Descricao); Participante(Matricula,CodProj);
-\choice Projeto_Participante(Codigo,CodProj,Nome,Salário);
+\choice Projeto\_Participante(Codigo,CodProj,Nome,Salário);
 \choice Nenhuma das anteriores;
 \end{choices}
-\begin{solution}
-\end{solution}
 
 \question Na ocorrência de falha geral do meio de armazenamento, sabendo que existe back-up de arquivo de log deste banco de dados
 em outro meio de persistência, procede-se a(o):
@@ -243,21 +232,20 @@ em outro meio de persistência, procede-se a(o):
 \choice Transaction Undo;
 \choice Nenhuma das anteriores;
 \end{choices}
-\begin{solution}
-\end{solution}
 
 \question Existem vários modelos de distribuição de bancos de dados NoSQL. Os modelos mais conhecidos são a fragmentação em que um banco ou um conjunto de informações são copiadas entre vários nodos da rede. O outro modelo é a replicação, em que um banco é dividido em várias partes, uma para cada nodo.
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-A definição é o contrário.
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 
 \question A replicação ponto-a-ponto permite gravações em qualquer nodo; os nodos são coordenados para sincronizar suas cópias de dados.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \fullwidth{\large \textbf{ITIL V3}}
 \question Qual é o sinônimo de Uptime.
@@ -269,8 +257,6 @@ A definição é o contrário.
 \choice Relacionamento entre TMEF e TMEIS
 \choice Nenhuma das anteriores
 \end{choices}
-\begin{solution}
-\end{solution}
 
 \question Qual processo ou função do ITIL tem o confronto do incidente com soluções conhecidas e documentadas
 como uma de suas atividades?
@@ -282,14 +268,13 @@ como uma de suas atividades?
 \choice Service Desk
 \choice N.A
 \end{choices}
-\begin{solution}
-\end{solution}
 
 \question Entre os elementos: capacidade e disponibilidade, o mais sensível deles para o cliente é a disponibilidade.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question O gerenciamento de catálogo de serviço ocorre na etapa do ITIL v3 denominada.
 \renewcommand{\choicelabel}{(\thechoice)}
@@ -300,15 +285,16 @@ como uma de suas atividades?
 \choice Operação de serviços.
 \choice Melhoria contínua de serviços.
 \end{choices}
-\begin{solution}
-\end{solution}
 
 \fullwidth{\large \textbf{COBIT}}
 \question A entrega de valor é um foco da ITIL determinado para melhorar a relação dos serviços oferecidos aos clientes. Na entrega de valor
 são boas práticas: gestão de nível de serviço; gestão de mudanças; e, suporte aos serviços. Um framework indicado para tal tarefa
 é o COBIT, que trabalha diretamente gerenciando os serviços de TI.
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 \begin{solution}
 O COBIT é um modelo de governança de TI e não de gerenciamento de TI. Além disso, quem gerencia as boas práticas relacionadas com
 o gerenciamento de TI é a ITIL.
@@ -316,19 +302,21 @@ o gerenciamento de TI é a ITIL.
 
 \question Monitorar e avaliar o desempenho de TI e monitorar e avaliar os controles internos são exemplos do domínio monitorar e avaliar do
 COBIT.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question O COBIT, ferramenta de gestão orientada a negócios, apresenta indicadores de objetivo que definem a forma do progresso das
 ações necessárias para se atingirem os objetivos estratégicos da organização, que podem ser expressos sob a forma de disponi-
 bilidade de informação para dar apoio ao negócio; riscos da falta de informação e confiabilidade das informações; eficiência de 
 custos; entre outras.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question Os conceitos de inteligência empresarial ou organizacional estão intimamente relacionados com o PETI que considera
 \renewcommand{\choicelabel}{(\thechoice)}
@@ -346,8 +334,11 @@ PETI significa: Planejamento Estratégico em Tecnologia da Informação
 \fullwidth{\large \textbf{INSTRUÇÃO NORMATIVA Nº4/2008 (MPOG)}}
 \question Segundo a instrução normativa Nº4/2008 do MPOG, requisito significa: declaração formal do Gestor de Contrato de que os serviços 
 prestados atendem as necessidades estabelecidas em contrato.
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 \begin{solution}
 Esse é o conceito de requisito
 \end{solution}
@@ -356,66 +347,83 @@ Esse é o conceito de requisito
 do Serviço, e deve abranger: identificação dos principais riscos em relação a contratação e ao atendimento do serviço prestado; 
 identificação dos danos potenciais de cada risco; definição das ações a serem tomadas; definição de ações de contingênciamento; e a
 definição dos responsáveis pelas ações de prevenção dos riscos e procedimentos de contingência;
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question De acordo com a IN4, na fase de gerenciamento de contrato, os órgãos do governo federal devem seguir um conjunto de atividades
 mínimas, que inclui a análise de viabilidade da contratação, o plano de sustentação, a estratégia de contratação e a análise de
 riscos.
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 
 \question Os softwares resultantes de serviços de desenvolvimento deverão ser catalogados pelo Gestor do Contrato e disponibilizados no
 Portal do Software Público Brasileiro de acordo com regulamento do órgão central do SISP.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \fullwidth{\large \textbf{Análise de Ponto de Função (APF)}}
 \question A determinação do tipo de contagem é realizada após a identificação do escopo da contagem e fronteira da aplicação que será contada.
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 \begin{solution}
 É o contrário.
 \end{solution}
 
 \question A APF trata a criação de um ponto de função por dois processos: medição e aproximação. O primeiro permite fazer suposições sobre funções desconhecidas ou suas complexidades, para fazer uma análise de pontos de função. O segundo permite a identificação de todas as funções e suas complexidades, para efetuar uma análise de pontos de função.
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 \begin{solution}
 É o contrário.
 \end{solution}
 
 \question O principal objetivo de um arquivo de interface externa (AIE) é armazenar dados referenciados pou um ou mais processos elementares da aplicação que está sendo contada. Além disso, um AIE contado para uma aplicação deve ser um arquivo lógico interno para outra aplicação.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question A partir de diagramas UML de classe e de sequência, é possível calcular o número de pontos de função de um sistema ou módulo.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \fullwidth{\large \textbf{Qualidade de Software}}
 \question As normas, tais como as normas ISO ou outras normas quaisquer surgem de facto ou de jure. Isso quer dizer que no primeiro caso, a
 lei surje por imposição de lei ou norma, e no segundo caso, pela prática de uma determinada atividade.
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 \begin{solution}
 É o contrário.
 \end{solution}
 
 \question Uma equipe de inspeção de inspeção possui funções bem definidas, tais como: autor, que é programador ou projetista; o inspetor, que
 faz a inspeção; e, o leitor, que lê o código durante a inspeção;
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 \begin{solution}
 Equipes de inspeção (composição):
   Autor: Programador/Projetista;
@@ -428,33 +436,37 @@ Equipes de inspeção (composição):
 
 \question O tratamento dos diálogos, tais como: diálogos por linguagem de comandos; diálogos de manipulação direta; e, diálogos por 
 preenchimento de formulários são preocupações da norma ISO/IEC 9241.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question A adequação ao uso significa adequar-se ao tipo de tarefas ou atividades que se pretende realizar com o produto de software, aos
 usuários que tipicamente utilizam o produto e ao ambiente de utilização do produto. A avaliação somativa pode ser utilizada como 
 critério de aceitação de um produto, ou seja, como parte dos requisitos não funcionais acordados com os usuários.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \fullwidth{\large \textbf{CMM-SW/CMMI/MPS.BR}}
 \question No nível 1 do CMMI as empresas conseguem entregar produtos e serviços que funcionam; entretanto, elas frequentemente estouram
 prazos e custos previstos para o projeto. As organizações neste nível são caracterizadas pela tendência de: não cumprimento da
 agenda estabelecida; abandono dos processos em tempo de crise; e de não serem capazes de repetir sucessos passados.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question No nível G do MPS.BR, as áreas de processos a serem abordadas são: gerência de requisitos e gerência de projetos.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question O processo: solução técnica está localizado no nível:
 \renewcommand{\choicelabel}{(\thechoice)}
@@ -465,19 +477,14 @@ agenda estabelecida; abandono dos processos em tempo de crise; e de não serem ca
 \choice nível A do MPS.BR;
 \choice nível E do MPS.BR;
 \end{choices}
-\begin{solution}
-\end{solution}
 
 \question Analisando as afirmações seguintes, relativas ao modelo de referência CMMI,
-
-
-I. É um modelo que classifica a maturidade do processo de desenvolvimento adotado na empresa. 
-
-II. Apresenta quatro níveis de maturidade do processo, sendo o último nível um indicativo de que há evidências quantitativas para acompanhar e monitorar o projeto. 
-
-III. O único objetivo do CMMI é melhorar a qualidade do software produzido, sem que necessariamente isso reflita no processo de desenvolvimento. 
-
-IV. O último nível do CMMI é conhecido como nível de melhoria contínua, ou nível em otimização. 
+\begin{enumerate}[I.]
+\item É um modelo que classifica a maturidade do processo de desenvolvimento adotado na empresa. 
+\item Apresenta quatro níveis de maturidade do processo, sendo o último nível um indicativo de que há evidências quantitativas para acompanhar e monitorar o projeto. 
+\item O único objetivo do CMMI é melhorar a qualidade do software produzido, sem que necessariamente isso reflita no processo de desenvolvimento. 
+\item O último nível do CMMI é conhecido como nível de melhoria contínua, ou nível em otimização. 
+\end{enumerate}
 \renewcommand{\choicelabel}{(\thechoice)}
 \begin{choices}
 \correctchoice apenas I e IV são verdadeiras.
@@ -486,29 +493,32 @@ IV. O último nível do CMMI é conhecido como nível de melhoria contínua, ou nível
 \choice apenas III e IV são verdadeiras.
 \choice apenas I é verdadeira.
 \end{choices}
-\begin{solution}
-\end{solution}
 
 \question As áreas de processo na representação contínua são Gerência de processos; gerênia de projeto; engenharia; e suporte.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question No CMMI, representação por estágios, os níveis de maturidade são alcançandos trabalhando várias áreas de processo por nível, em que cada área de processo exercita práticas genéricas e específicas. Pelas práticas genéricas são exercitadas as características comuns de:
 compromisso com execução; habilidade para execução; direção e verificação da implementação.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \fullwidth{\large \textbf{SOA}}
 \question Entre as partes fornecidas pelo WSDL, podem ser apontadas: uma parte introdutória; que define os namespaces XML usados.
 Existe uma descrição obrigatória de tipos usados  nas mensagens trocadas. Uma descrição da interface  de serviços, ou seja,
 das operações fornecidas pelo serviço. Por fim, uma especificação de ponto final, que é uma localização física de um serviço,
 expresso em URI (Universal Resource Identifier).
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 \begin{solution}
 Está tudo praticamente correto. O erro consiste em dizer que a descrição de tipos é obrigatória.
 \end{solution}
@@ -724,7 +734,7 @@ A alternativa E representa artefatos (alternativa correta).
 
 \fullwidth{\large \textbf{Inteligência Artificial}}
 \question Modificadores fuzzy são adjetivos aplicados as variáveis fuzzy e que permitem alterar os valores originais das variáveis fuzzy.
-Exemplo: considerando que muito é igual a a² e a variável a é 2, então o valor é modificado para 4.
+Exemplo: considerando que muito é igual a $a^{2}$ e a variável a é 2, então o valor é modificado para 4.
 \\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
 \renewcommand{\choicelabel}{(\thechoice)}
 \begin{solution}
@@ -760,7 +770,11 @@ centralizado.
 \end{solution}
 
 \fullwidth{\large \textbf{Linguagem de Programação IV}}
-\question O comando do tipo <% ! int a=0 %> é conhecido como:
+\question O comando do tipo 
+\begin{verbatim}
+<% ! int a=0 %>
+\end{verbatim}
+é conhecido como:
 \renewcommand{\choicelabel}{(\thechoice)}
 \begin{choices}
 \correctchoice Declaração
