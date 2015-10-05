@@ -13,3 +13,7 @@
 *.pdf
 ./*.pdf
 ../*.pdf
+
+*.backup
+./*.backup
+../*.backup
