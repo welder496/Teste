@@ -1,6 +1,7 @@
 \documentclass[twoside,onecolumn]{exam}
-\usepackage[brazil,portuguese]{babel}
-\usepackage[ansinew]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage[utf8,ansinew]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage{amsmath,amssymb,exscale}
 \usepackage{color,colortbl,multirow}
 \usepackage{graphics,graphicx}
@@ -44,8 +45,8 @@ Brasília, \today \\
 Welder Maurício de Souza\\
 \begin{questions}
 \fullwidth{\large \textbf{Gestão de Projetos}}
-\question Em face de um evento de risco com baixa probabilidade de ocorrência e impacto muito baixo sobre o projeto, qual é a estratégia pro
-vavelmente não seria adotada.
+\question Em face de um evento de risco com baixa probabilidade de ocorrência e impacto muito baixo sobre o projeto, qual é a estratégia que provavelmente
+não seria adotada.
 \renewcommand{\choicelabel}{(\thechoice)}
 \begin{choices}
 \choice Aceitar;
@@ -550,37 +551,39 @@ adoção do padrão REST de arquitetura de software.
 \choice fwrite
 \choice fgets
 \end{choices}
-\begin{solution}
-\end{solution}
 
 \fullwidth{\large \textbf{ISO-27000}}
 \question A política de segurança é um conjunto de normas e diretrizes destinadas a proteção dos ativos da Organização;
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 
 \question Uma informação integra é aquela que assegura que o seu conteúdo não poderá ser alterado por acidente ou intenção de qualquer 
 emissor ou receptor desta informação.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question Em relação com a gestão de recursos, segundo a ISO/IEC 27001, devem ser reservados recursos para: manter todos os controles do
 documento de aplicabilidade; estabelecer, implementar, operar, monitorar e analisar criticamente um SGSI; para identificar e 
 tratar os requisitos legais e regulamentares e obrigações contratuais de segurança da informação. Por fim, para
 melhorar a eficácia do SGSI.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question Devido a questões econômicas, a norma em questão não cobre empresas de pequeno porte.
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 
 \fullwidth{\large \textbf{Padrões de Projeto}}
 \question Marque a alternativa que representa corretamente o encapsulamento de operações, separando a abstração (classe e métodos) de
@@ -593,8 +596,6 @@ sua implementação:
 \choice Composite;
 \correctchoice Bridge;
 \end{choices}
-\begin{solution}
-\end{solution}
 
 \fullwidth{\large \textbf{Gestão de Segurança da Informação}}
 \question Sobre análise/avaliação e tratamento de riscos segundo a norma ABNT ISO/IEC 27002: 2005, é correto afirmar que:
@@ -606,8 +607,6 @@ sua implementação:
 \correctchoice Para riscos onde a decisão de tratamento do risco seja a de aplicar controles apropriados, esses controles devem ser selecionados e implementados para atender aos requisitos identificados pela análise/avaliação de riscos.
 \choice Os riscos não podem ser transferidos para outras partes, como seguradoras ou fornecedores, por exemplo.
 \end{choices}
-\begin{solution}
-\end{solution}
 
 \question Marque a alternativa que NÃO REPRESENTA uma entrada para a análise crítica.
 \renewcommand{\choicelabel}{(\thechoice)}
@@ -618,18 +617,14 @@ sua implementação:
 \choice Vulnerabilidades ou ameaças não contempladas.
 \choice Resultado da eficácia das medições.
 \end{choices}
-\begin{solution}
-\end{solution}
 
 \question Marque a alternativa que representa corretamente as características da técnica de Decriptografia Genérica (DG):
-
-I - Varre as assinaturas dos vírus no ambiente de execução.
-
-II - Utiliza-se de máquina virtual para não proliferar as ações prováveis de um vírus.
-
-III - Avalia o comportamento de um vírus.
-
-IV - Descompacta um vírus polimórfico, caso seja necessário.
+\begin{enumerate}[I -]
+\item Varre as assinaturas dos vírus no ambiente de execução.
+\item Utiliza-se de máquina virtual para não proliferar as ações prováveis de um vírus.
+\item Avalia o comportamento de um vírus.
+\item Descompacta um vírus polimórfico, caso seja necessário.
+\end{enumerate}
 \renewcommand{\choicelabel}{(\thechoice)}
 \begin{choices}
 \choice I e III, somente
@@ -638,8 +633,6 @@ IV - Descompacta um vírus polimórfico, caso seja necessário.
 \choice I e II, somente
 \choice I, II e III, somente
 \end{choices}
-\begin{solution}
-\end{solution}
 
 \fullwidth{\large \textbf{Orientação objetos (Java/C++)}}
 \question O princípio da orientação a objetos que indica a capacidade de abstrair várias implementações diferentes de uma única interface
@@ -652,38 +645,45 @@ IV - Descompacta um vírus polimórfico, caso seja necessário.
 \choice identificação;
 \correctchoice polimorfismo;
 \end{choices}
-\begin{solution}
-\end{solution}
 
 \fullwidth{\large \textbf{e-PING}}
 \question O e-VOG (Vocabulário e ontologias do governo federal) tem o objetivo de promover a interoperabilidade semântica dentro da e-PING, englobando para isso: vocabulário controlado do governo eletrônico (VCGE) e do Padrão de Metadados do Governo Eletrônico (e-PMG).
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question Como dimensão técnicas, o e-PING privilegia a adoção de tecnologias baseadas em browser e que possam ser escaláveis.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question A e-PING é concebida como uma estrutura básica para a estratégia de governo eletrônico, aplicada inicialmente ao governo federal - poder executivo, não restringindo a participação, por adesão voluntária, de outros poderes e esferas de governo.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 \begin{solution}
 Lembre-se: a E-ping é uma iniciativa do poder executivo, SLTI (Secretaria de Logistica e Tecnologia de Informação) do MPOG, mas não restringe a participação de outras esferas: estadual e municipal e nem de outros poderes, legislativo e Judiciário, por adesão voluntária.
 \end{solution}
 
 \question A e-PING utiliza políticas, diretrizes, para a adoção e gestão dos padrões adotados, sendo elas: adoção preferencial de padrões abertos; softwares públicos ou livres; transparência; segurança, suporte de mercado; e dimensões (técnica, semântica e organizacional).
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question A norma e-ping de interoperabilidade é obrigatória para os poderes legislativo e executivo do governo federal.
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 \begin{solution}
 É obrigatória somente para os órgãos do poder executivo. Não é obrigatória nem para o legislativo e judiciário.
 \end{solution}
@@ -691,31 +691,39 @@ Lembre-se: a E-ping é uma iniciativa do poder executivo, SLTI (Secretaria de Log
 \fullwidth{\large \textbf{Business Process Modeling-BPM}}
 \question O BPMN divide os processos em três tipos: processos internos, abstratos e de colaboração. Os processos internos são aqueles que não é 
 possível saber sobre suas atividades e são acessíveis somente aos decisores de uma organização.
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 
 \question A atividade verificação é qualificada com ad-hoc devido as barras que a diferenciam da atividade validação. 
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 \begin{solution}
 É uma atividade que pode ter multiplas instâncias dentro de uma mesma instância de processo.
 \end{solution}
 
 \question O BPEL é indicada mais para os analistas de sistemas enquanto que o BPMN é mais indicada para os engenheiros de software.
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 \begin{solution}
 É o contrário. O BPMN é mais para analistas, já que é uma representação gráfica, enquanto que o BPEL é uma linguagem, mais indicada para os engenheiros.
 \end{solution}
 
 \question O objeto de dado é um mecanismo para mostrar como os dados são requeridos ou produzidos por atividades. São conectados às
 atividades com as associações.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question Marque a alternativa que contém todos os artefatos, segundo o BPMN:
 \renewcommand{\choicelabel}{(\thechoice)}
@@ -737,39 +745,41 @@ A alternativa E representa artefatos (alternativa correta).
 \fullwidth{\large \textbf{Inteligência Artificial}}
 \question Modificadores fuzzy são adjetivos aplicados as variáveis fuzzy e que permitem alterar os valores originais das variáveis fuzzy.
 Exemplo: considerando que muito é igual a $a^{2}$ e a variável a é 2, então o valor é modificado para 4.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
-
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 \question No termo referente ao trecho de uma premissa:
-
+\begin{quotation}
 "O sol está muito quente"
-
-Pode-se afirmar que:
-
-Quente é uma variável fuzzy;
-Sol é uma variável linguistica; 
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\end{quotation}
+Pode-se afirmar que:\\
+Quente é uma variável fuzzy;\\
+Sol é uma variável linguistica;\\ 
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \fullwidth{\large \textbf{Fundamento de Sistemas de Informação}}
 \question No processo de construção de um SIG, do tipo DATA-WAREHOUSE, a primeira etapa do processo é a definição da granularidade
 dos dados na tabela fato; seguida da estruturação da tabela fato;
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \fullwidth{\large \textbf{Sistemas e Tecnologias para a Internet}}
 \question Os UDDI Business Registries (UBR’s) proporcionam um diretório de sites operadores UDDI, fisicamente distribuído, mas logicamente 
 centralizado.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \fullwidth{\large \textbf{Linguagem de Programação IV}}
 \question O comando do tipo 
@@ -789,16 +799,18 @@ centralizado.
 \end{solution}
 
 \question Para buscar todos os parâmetros disponibilizados por um objeto HttpSession usa-se o método getAttributeNames() do objeto HttpSession.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question Com o uso de um servlet é possível saber o nome de um servidor e da porta usada por este servidor. Tudo isso por meio da interface ServletResponse.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question Uma página HTML deve ser posicionada no diretório (marque a alternativa correta):
 \renewcommand{\choicelabel}{(\thechoice)}
@@ -809,75 +821,68 @@ centralizado.
 \correctchoice No diretório WebContent, não incluindo os diretórios WEB-INF e META-INF.
 \choice No diretório WebContent, incluindo o diretório META-INF. 
 \end{choices}
-\begin{solution}
-\end{solution}
 
 \fullwidth{\large \textbf{Sistemas Operacionais e Distribuído}}
 \question A Serialização de objetos habilita programas a passar objetos Java como parâmetros e receber objetos como valores de retorno no RMI.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question A Portabilidade habilita a mudança de um sistema ou componente (incluindo ambos, software e hardware) de um ambiente para outro sem alterar o sistema ou componente que está sendo transferido.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question Em sistemas distribuídos, um dos tipos de transparência é a transparência de acesso. Esta oculta os detalhes de protocolos de rede que habilitam a comunicação entre computadores distribuídos. Também fornece um meio universal de acesso a dados armazenados em diferentes formatos de dados em todo o sistema.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question No algoritmo de escalonamento shortest-job-first (SJF), a prioridade de cada processo é inversamente proporcional ao
 próximo tempo de processamento (CPU burst) necessário ao processo. Por sua vez, no algoritmo round-robin (RR), a lista de
 processos prontos é tratada como uma lista circular e o processador é alocado, a cada processo, em fatias de tempo. Quando
 comparados os tempos médios de espera em sistemas que empregam os algoritmos, o tempo médio de espera para execução
 é tipicamente mais longo no SJF que no RR.
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
-
-\fullwidth{\large \textbf{Sistemas Multimídia}}
-\question Em relação aos termos: saturação, luminância e matiz; pode-se dizer que o último se refere a:
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{choices}
-\choice Quantidade de luz (brilho) existente em uma cor;
-\choice Quantidade da componente (vermelho) existente em uma cor;
-\choice Quantidade da componente (verde) existente em uma cor;
-\choice Grau de pureza relacionado a uma cor;
-\correctchoice A dominância de uma componente na composição de uma cor;
-\end{choices}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 
 \fullwidth{\large \textbf{Business Process Manegement}}
 \question Na avaliação de desempenho de processos, pode ser definido um indicador que represente vários aspectos da realidade, sendo inviável a obtenção desses indicadores pela simples análise do valor de uma variável.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question Na gestão por processos, o objetivo principal é mapear todos os processos em todos os níveis da organização.
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 
 \question No gerenciamento de processo de negócio são utilizadas técnicas e ferramentas para analisar, modelar, publicar, otimizar e controlar processos envolvendo recursos humanos, aplicações, documentos e outras fontes de informação.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question Os processos de negócio devem ser definidos a partir da departamentalização da organização e das atividades identificadas em cada departamento.
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 
 \fullwidth{\large \textbf{Sistemas de Apoio a Decisão}}
 \question Um processo possui características apontadas corretamente em uma das alternativas abaixo:
@@ -889,28 +894,33 @@ comparados os tempos médios de espera em sistemas que empregam os algoritmos, o 
 \correctchoice Várias atividades de várias áreas funcionais participam de processos. Todo processo deve ter um dono e um cliente.
 \choice Processo é formado por atividades de uma mesma área funcional. Tem vários clientes e o gerente como dono.
 \end{choices}
-\begin{solution}
-\end{solution}
 
 \question Data warehouses possuem estratégias distribuídas de implementação. Os Data Warehouses distribuídos homogêneos possuem tipos diferentes de ferramentas de banco de dados que são controladas centralmente por um conjunto de sistemas que pertencem a uma 
 mesma arquitetura.
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 \begin{solution}
 Esse é o sistema de data warehouse distribuído heterogêneo.
 \end{solution}
 
 \question Organizar os atributos em uma hierarquia, em que o nível mais elevado apresenta as agregações mais esparsas e os níveis inferiores apresentam maiores detalhes, constitui uma técnica para modelagem de dados multidimensional.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \fullwidth{\large \textbf{Redes}}
 \question Em relação aos endereçamentos privados, são eles: 10.0.0.0/8 a 10.255.255.255/8 para classe A; 172.16.0.0/12 a 
 172.31.255.255/12 para classe B; 192.160.0.0/16 a 192.168.255.255/16;
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 \begin{solution}
 O erro está na faixa de endereçamentos:
 Classe A: 10.0.0.0/8 a 10.255.255.255/8;
@@ -919,28 +929,34 @@ Classe C: 192.168.0.0/16 a 192.168.255.255/16;
 \end{solution}
 
 \question Uma rede local usa um modo de transmissão conhecido como modo síncrono, que garante alta velocidade no processo de comunicação;
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question A multiplexação de uma conexão com TCP/IP é possível porque os protocolos de transporte são capazes de gerenciar várias
 conexões simultâneas em portas diferentes.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question O esquema OAEP apresenta segurança demonstrável no caso em que utiliza o RSA, devido às propriedades deste último.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \fullwidth{\large \textbf{UML}}
 \question Um diagrama de colaboração é construído a partir de uma colaboração (adorno básico da UML)
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 \begin{solution}
 Apesar do diagrama de colaboração ser conhecido por esse nome, na verdade é um diagrama que mostra a "colaboração" entre 
 objetos (adornos básicos da UML).
@@ -948,26 +964,32 @@ objetos (adornos básicos da UML).
 
 \fullwidth{\large \textbf{Usabilidade}}
 \question Segundo o e-pwg, é necessário realizar a comunicação de erros de formulário no topo, com contraste visual, indicando também ações para correção de erro e associando corretamente o campo responsável com o erro principal.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question Segundo o e-pwg, números de protocolos devem fornecidos pelo sistema por meio de cópia por email, para evitar que o usuário fique memorizando este tipo de informação.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question Segundo o e-pwg, a função de um sítio, a informação, é soberana sobre o desenho. Qualquer tipo de conformação que beneficie o desenho em detrimento a informação, usabilidade e funcionalidade do sítio deve ser abandonada.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \question Um sítio deverá conter uma barra de acessibilidade no topo da página principal em detrimento das demais páginas.
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 \begin{solution}
 O sítio deverá conter uma barra de acessibilidade no topo de cada página contendo os seguintes itens:
 
@@ -980,37 +1002,44 @@ O sítio deverá conter uma barra de acessibilidade no topo de cada página contend
 \question Se duas classes: A e B possuem relacionamento entre si, onde A visualiza os elementos em B por meio de um qualificador, pode-se 
 afirmar que a implementação do qualificador será realizada por meio de um método que passa como parâmetro o atributo que 
 acessa um elemento na classe alvo, ou seja, na classe B (já que o classificador está definido em A);
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \fullwidth{\large \textbf{Gestão de Sistemas de Informação}}
 \question Um banco de dados multimensional possui como característica a aplicação de normalização para evitar a redundância de dados;
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 
 \question Em uma competição de skate observa-se que entre os competidores da alto nível, algumas variáveis são determinantes para 
 determinar o campeão. Entre elas, podem ser citadas: destreza, tipos de manobras, e quantidade de erros. Uma empresa de 
 bebida energética, criou uma relação por meio de regressão linear múltipla destas três variáveis. Com essa formula, ela irá
 determinar que tipo de atleta a mesma irá patrocinar. Em relação a este trecho, pode-se afirmar que o mesmo representa
 um tipo de decisão semi-estruturada;
-\\ (\hspace{0.25cm}) Certo  \textbf{(X) Errado} 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \choice Certo
+ \correctchoice Errado
+\end{oneparcheckboxes}
 
 \question Em um processo de tomada de decisão, pode-se afirmar que: na fase de escolha são aplicáveis ferramentas, geração de
 cenários para determinar uma alternativa em particular.
-\\ \textbf{(X) Certo}  (\hspace{0.25cm}) Errado 
-\renewcommand{\choicelabel}{(\thechoice)}
-\begin{solution}
-\end{solution}
+\\
+\begin{oneparcheckboxes}
+ \correctchoice Certo
+ \choice Errado
+\end{oneparcheckboxes}
 
 \fullwidth{\large \textbf{RSS}}
+
 \fullwidth{\large \textbf{REST}}
+
 \fullwidth{\large \textbf{Organização de Arquivos}}
+
 \end{questions}
 \end{document}
